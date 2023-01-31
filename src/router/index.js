@@ -5,8 +5,12 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
-    name: 'Home',
+    path:'/',
+    redirect:'/cover-page'
+  },
+  {
+    path: '/cover-page',
+    name: 'CoverPage',
     component:re => require(['../components/CoverPage.vue'],re)
   },
 ]

@@ -8,7 +8,7 @@ export default new Vuex.Store({
     strict: true,
     state:{
         username:'ddd',
-        ...base
+        questionBase:base
     },
     mutations:{
         modifyData(state,data){
