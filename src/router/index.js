@@ -4,19 +4,25 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 const routes = [
+  // {
+  //   path:'/',
+  //   redirect:'/cover-page'
+  // },
   {
-    path:'/',
-    redirect:'/cover-page'
-  },
-  {
-    path: '/cover-page',
+    path: '/',
+    // path: '/cover-page',
     name: 'CoverPage',
     component:re => require(['../components/CoverPage.vue'],re)
+  },
+  {
+    path: '/questions',
+    name: 'Questions',
+    component:re => require(['../components/Questions.vue'],re)
   },
 ]
 
 const router = new VueRouter({
-  // mode: 'history',
+  mode: 'history',
   // base: process.env.BASE_URL,
   routes
 })

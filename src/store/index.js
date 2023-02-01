@@ -4,6 +4,12 @@ import base from './base'
 
 Vue.use(Vuex)
 
+// 给所有问题加上题目id
+base.some(testTypeObj => {
+  testTypeObj.questionList.some((questionItem,index) => {
+    questionItem.num = index + 1
+  })
+})
 export default new Vuex.Store({
     strict: true,
     state:{

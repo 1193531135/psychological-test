@@ -1,16 +1,18 @@
 module.exports = [
     {
-        name: "红蓝黄绿性格测试",
+        name: "DISC红蓝黄绿性格测评",
+        name2:'DISC PERSONALITY TEST',
         key: 'Personality_color_test',
         option: ['A', 'B', 'C', 'D'],
         description:'用“红、蓝、黄、绿”四色代替人的性格类型，借助一幅幅美妙的图画来解析多变的人生；通过对“性格色彩密码”的解读，帮助你学会以“有‘色’眼睛”洞察人性，增强对人生的洞察力。',
+        EnglishText:`Organizations and facilitators choose the DISC assessment because it is easy to administer, user-friendly and a powerful tool in a wide range of applications.`,
         background: `性格色彩测试模型源自DISC模型。20世纪20年代，
     美国心理学家威廉.莫尔顿.马斯顿创建了一个理论来解释人的情绪反应，
     在此之前，这种工作主要局限在对于精神病患者或精神失常人群的研究，而马斯顿博士则希望扩大这个研究范围，
     以运用于心理健康的普通人群，因此，马斯顿博士将他的理论构建为一个体系，即：The Emotions of Normal People“正常人的情绪”。 
     为了检验他的理论，马斯顿博士需要采用某种心理测评的方式来衡量人群的情绪反映－－“人格特征”，因此，他采用了四个他认为是非常典型的人格特质因子，
     即Dominance－支配，Influence－影响，Steady－稳健，以及Compliance－服从。而APESK基于DISC模型，正是代表了这四个英文单词的首字母。 
-    性格色彩测试模型用“红、蓝、黄、绿”四色代替DISC的支配，稳健，影响，服从。这样，DISC性格类型可以借助一幅幅美妙的图画来解析多变的人生`,
+    性格色彩测试模型用“红、蓝、黄、绿”四色代替DISC的支配，稳健，影响，服从。这样，DISC性格类型可以借助一幅幅美妙的图画来解析多变的人生。`,
         questionList: [
             {
                 question: '关于人生观，我的内心其实是:',
