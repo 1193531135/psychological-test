@@ -19,6 +19,11 @@ const routes = [
     name: 'Questions',
     component:re => require(['../components/Questions.vue'],re)
   },
+  {
+    path: '/color-report',
+    name: 'Coloreport',
+    component:re => require(['../components/Coloreport.vue'],re)
+  },
 ]
 
 const router = new VueRouter({
